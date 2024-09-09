@@ -9,9 +9,9 @@ int main(){
 
     while(i<=n){
         int j=1;
-        while(j<=n){
-            cout << j;
-            j++;
+        while(j<=i){
+            cout << "*";
+            j= j+1;
         }
         cout<< endl;
         i++;
