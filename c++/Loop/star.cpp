@@ -6,6 +6,7 @@ int main(){
     cin>>n;
 
     int i =1;
+    int h =1;
 
     while(i<=n){
         int j=1;
