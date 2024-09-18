@@ -13,7 +13,7 @@ const reducer1 = (state ={count:0},  action)=> {
 
 
 const INCREAMENT ="redux/increment";
-const initialState ={
+const initialState1 ={
     counter:0,
 };
 
@@ -51,4 +51,16 @@ export const reducer =(state = initialState, action) => {
                 return state;
     }
 };
-export const increamemtAction(amount = 1,)
+
+
+// sleltor are function that know that how extract the specific pieces
+
+
+const initialState = {value: 0 }
+
+const selectCountValue = state => state.value;
+
+const currentValue = selectCounterValue(store.getState);
+console.log(currentValue);
+
+
