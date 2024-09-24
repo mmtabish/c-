@@ -64,3 +64,14 @@ const currentValue = selectCounterValue(store.getState);
 console.log(currentValue);
 
 
+
+const AddItem = {
+
+    item : 'list_of_item',
+    payload:{id: 1, name:'apple'}
+
+}
+
+function CartReducer({state[], action}){
+
+}
