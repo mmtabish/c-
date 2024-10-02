@@ -75,3 +75,20 @@ const AddItem = {
 function CartReducer({state[], action}){
 
 }
+
+function sayHello() {
+    return function() {
+        return "d";
+    }
+}
+
+let number  = [1,2,3,4,5,6,7];
+let intput  = 'javaScript';
+let output = 45;
+
+async function getText(file) {
+
+    let x = await fetch(file);
+    let y  = await x.text()
+    mydispaly(y);
+}
