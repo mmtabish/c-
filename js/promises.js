@@ -46,7 +46,7 @@ promisesFour.then(function(user){
 
 const promisesFive = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
             resolve({username: "nadeer", password: "123"})
         }else{
@@ -65,23 +65,31 @@ async function consumePromiseFive(){
     }
  }
 
-consumePromiseFive()
+// consumePromiseFive()
 
 async function getAllusers(){
    try{
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+       const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
     // console.log(response);
-    const data =await response.json()
-   console.log(data);
-   }catch(error){
-    console.log("E:", error);
+       const data = await response.json()
+       console.log(data);
+   } catch(error){
+       console.log("E:", error);
    }
    
 
 }
 
-getAllusers()
+// getAllusers()
 
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+.then((response)=>{
+    return response.json()
+})
+.then((data) =>{
+    console.log(data);
+})
+.catch((error) => console.log(error))
 
 
 
