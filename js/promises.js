@@ -1,7 +1,7 @@
 const promisesOne = new Promise(function(resolve, reject) {
 
     setTimeout(function(){
-        console.log('Async task is complete');
+        console.log('Promises task is complete');
         resolve()
     },1000)
 
@@ -23,6 +23,13 @@ promisesThree.then(function(user){
     console.log(user.email)
 })
 
+const testPromises = new Promise(function(resolve, reject) {
+    console.log("testing is working");
+    resolve()
+})
+testPromises.then(function(){
+    console.log("inner test");
+});
 const promisesFour = new Promise(function(resolve, reject){
     setTimeout(function(){
         let error = false

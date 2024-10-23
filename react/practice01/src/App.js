@@ -3,6 +3,7 @@ import './App.css';
 
 import FirstQuestion from './components/FirstQuestion';
 import SecondQuestion from './components/SecondQuestion';
+import ThirdQuestion from './components/ThirdQuestion';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     
       {/* <FirstQuestion /> */}
 
-      <SecondQuestion />
+      {/* <SecondQuestion /> */}
+      <ThirdQuestion />
 
    
     </div>
