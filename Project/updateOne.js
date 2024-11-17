@@ -595,6 +595,8 @@ const TrainingCategoryAssociation = ({ isEdited, setIsEdited, form, fetchData, s
 
 
 
+
+
                             {/* <Form.Item
                                 name="totalQuestions"
                                 label="Total Questions in Test"
@@ -633,12 +635,27 @@ const TrainingCategoryAssociation = ({ isEdited, setIsEdited, form, fetchData, s
 
 
                         </Col>
+
+
+
                         <Col span={8}>
                             <Form.Item name="selectionCriteria" label="Selection Criteria">
                                 {!editRecord ? <Select placeholder="Select" options={selectionCriteria} onChange={handleSelectionCriteria} /> : <p>{editRecord[0].selectionCriteria}</p>}
                             </Form.Item>
                         </Col>
                         <Col span={24}>
+
+
+{/* <Col>
+
+<Form.Item name="slectionCriteria" label="Selection Criteria">
+    {!editRecord ? <Select placeholder="Select" option={selectionCriteria} onChange={handleSelectionCriteria}/> : <p>{editRecord[0].selectionCriteria}</p>}
+</Form.Item>
+
+</Col> */}
+
+
+
 {/* 
 
 
@@ -674,6 +691,25 @@ const TrainingCategoryAssociation = ({ isEdited, setIsEdited, form, fetchData, s
     )}
 />
 
+{/* 
+<Collapse
+    items={[
+        {
+            key:1,
+            label: `Total Selected Questions in Test: ${selectedRecords.length} out of ${questionDetails.length}`,
+            children:<TableDetails selectedQuestionKeys={selectedQuestionKey} /> // pass selectedQuestions as prop
+        },
+    ]}
+
+    onChange={handleCollapseChange}
+    expandIconPosition="end"
+    expandIcon={() => (
+        <span style= {{color: '#FF3E5B', fontSize: '14px', fontWeight: '700'}}>
+            {isExpanded ? 'Hide Question' : 'View Question'}
+        </span>
+    )}
+
+    /> */}
 
 
 
