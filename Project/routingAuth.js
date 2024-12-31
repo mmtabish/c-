@@ -323,7 +323,7 @@ const AuthenticatedUserPageMain = (props) => {
                 <Route path={routing.ROUTING_CSD_CPC_CLAIM} element={<CsdCpcClaimMasterPage />} exact />
                 <Route path={routing.ROUTING_ADDITIONAL_CDC_CPC_CLAIM} element={<AdditionalCsdCpcClaimPage />} exact />
                 <Route path={routing.ROUTING_OVER_RIDER_CLAIM} element={<OverRiderClaimPage />} exact />
-                {/* <Route path={routing.ROUTING_EXCHANGE_LOYALTY_CLAIM_GENERATION} element={<ExchangeLoyalityClaimMasterPage />} exact /> */}
+                {/* <Route path={routing.ROUTING_EXCHANGE_LOYALTY_CLAIM_GENERATION} element={<ExchangeLoyalityClaimMasterPage />} exact /> */} 
                 <Route path={routing.ROUTING_EXCHANGE_CLAIM_GENERATION} element={<ExchangeClaimMasterPage />} exact />
                 <Route path={routing.ROUTING_LOYALTY_CLAIM_GENERATION} element={<LoyaltyClaimMasterPage />} exact />
                 <Route path={routing.ROUTING_EXCHANGE_LOYALTY_INCENTIVE_MASTER} element={<ExchangeLoyaltyIncentiveMasterPage />} exact />
