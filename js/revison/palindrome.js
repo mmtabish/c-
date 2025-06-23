@@ -13,6 +13,7 @@ function palindrome(data){
         end--;
     }
     return result;
+    //comment
 }
 
 
