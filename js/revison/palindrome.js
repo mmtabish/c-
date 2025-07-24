@@ -15,7 +15,7 @@ function palindrome(data){
     return result;
     //comment\
     // new update comment
-    
+    // new comment
 }
 
 
