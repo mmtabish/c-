@@ -17,6 +17,7 @@ function palindrome(data){
     // new update comment
     // new commentnjjn
     //ocns
+    //ukuh
     mkmk
 }
 
