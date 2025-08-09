@@ -18,6 +18,7 @@ function palindrome(data){
     // new commentnjjn
     //ocns
     //ukuh
+    //hi there
     mkmk
 }
 
