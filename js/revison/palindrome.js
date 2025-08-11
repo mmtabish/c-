@@ -20,6 +20,7 @@ function palindrome(data){
     //ukuh
     //hi there
     mkmk
+    ///cnkxcnxk
 }
 
 
