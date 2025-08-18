@@ -16,6 +16,7 @@ function checkAnagram(str1, str2) {
           ObjStr1[ch]--;
         }
         return true
+        //nan
       }
 
       console.warn(checkAnagram("anil", "nila"));
