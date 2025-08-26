@@ -17,6 +17,7 @@ function checkAnagram(str1, str2) {
         }
         return true
         //nan
+        //push m
       }
 
       console.warn(checkAnagram("anil", "nila"));
