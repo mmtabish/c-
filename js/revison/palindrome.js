@@ -19,7 +19,9 @@ function palindrome(data){
     //ocns
     //ukuh
     //hi there
-    mkmk
+    // mkmk
+    // update
+
     ///cnkxcnxk
 }
 
