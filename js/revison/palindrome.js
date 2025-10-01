@@ -21,6 +21,7 @@ function palindrome(data){
     //hi there
     // mkmk
     // update
+    //update
 
     ///cnkxcnxk
 }
