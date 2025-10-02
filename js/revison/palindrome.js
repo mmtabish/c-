@@ -23,6 +23,7 @@ function palindrome(data){
     // update
     //update
 
+    // ??
     ///cnkxcnxk
 }
 
