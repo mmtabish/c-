@@ -25,6 +25,7 @@ function palindrome(data){
     //update2
 
     // ??
+    //day 2
     //mnmn
     ///cnkxcnxk
 }
