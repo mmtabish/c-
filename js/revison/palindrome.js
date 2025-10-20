@@ -26,6 +26,7 @@ function palindrome(data){
 
     // ??
     //day 2
+    //masti
     //mnmn
     ///cnkxcnxk
 }
