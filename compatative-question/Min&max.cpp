@@ -4,6 +4,7 @@ class Solution {
     pair<int, int> getMinMax(vector<int> arr) {
         // code here
         int n = arr.size();
+        // just checking
         
         if(n == 0 ) return {-1 , -1 };
         
