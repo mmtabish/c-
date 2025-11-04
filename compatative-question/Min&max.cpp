@@ -6,7 +6,7 @@ class Solution {
         int n = arr.size();
         // just checking
         // commit
-        
+        //md
         if(n == 0 ) return {-1 , -1 };
         
         int minVal = arr[0];
