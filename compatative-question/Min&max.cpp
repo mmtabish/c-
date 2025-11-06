@@ -7,6 +7,7 @@ class Solution {
         // just checking
         // commit
         //md
+        //just comment
         if(n == 0 ) return {-1 , -1 };
         
         int minVal = arr[0];
