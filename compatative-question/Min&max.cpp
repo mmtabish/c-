@@ -12,6 +12,8 @@ class Solution {
         
         int minVal = arr[0];
         int maxVal = arr[0];
+
+        // min/
         
         for(int i =0 ; i < n ; i++ ){
             
