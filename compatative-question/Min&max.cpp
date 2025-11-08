@@ -7,6 +7,7 @@ class Solution {
         // just checking
         // commit
         //md
+        //check data
         //just comment
         if(n == 0 ) return {-1 , -1 };
         
