@@ -5,6 +5,7 @@ int main(){
 
     int marks;
     cin>>marks;
+    //update
 
     if(marks>33){
         cout<<"you are passed ";
