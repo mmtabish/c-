@@ -10,7 +10,7 @@ class Solution {
         //check data
         // pic//
         //just comment
-        //pllll
+        //pllllll
         if(n == 0 ) return {-1 , -1 };
         
         int minVal = arr[0];
