@@ -11,7 +11,7 @@ class Solution {
         // pic//
         //just comment//llllklnl
         //pllllll//kkln..l,llmikl
-        //ppppllkkminimumllm
+        //ppppllkkminimumllmbcvbv
         if(n == 0 ) return {-1 , -1 };
         
         int minVal = arr[0];
