@@ -18,7 +18,7 @@ class Solution {
         int maxVal = arr[0];
 
         // min/guigi
-        
+        // y98y9
         for(int i =0 ; i < n ; i++ ){
             
             if(arr[i] < minVal){
