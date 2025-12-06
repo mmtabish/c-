@@ -10,7 +10,7 @@ class Solution {
         //check data
         // pic//yiyiyhihihihjoijoj
         //just comment//llllklnlyihihi xc zhslk
-        //pllllll//kkln..l,llmiklglmkdfdbhkhkkmlkmlk
+        //pllllll//kkln..l,llmiklglmkdfdbhkhkkmlkmlkvsndknml
         //ppppllkkminimumllmbcvbvflskjslguygogojohoh
         if(n == 0 ) return {-1 , -1 };
         
