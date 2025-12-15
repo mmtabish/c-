@@ -11,7 +11,7 @@ class Solution {
         // pic//yiyiyhihihihjoijoj
         //just comment//llllklnlyihihi xc zhslk
         //pllllll//kkln..l,llmiklglmkdfdbhkhkkmlkmlkvsndknmlvndlsdvffnsovvxvdsvsdvavb
-        //ppppllkkminimumllmbcvbvflskjslguygogojohohvjvjvjvjgcgcjhsjp
+        //ppppllkkminimumllmbcvbvflskjslguygogojohohvjvjvjvjgcgcjhsjpnlnl
         if(n == 0 ) return {-1 , -1 };
         
         int minVal = arr[0];
