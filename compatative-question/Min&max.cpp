@@ -29,7 +29,7 @@ class Solution {
                 maxVal = arr[i];
             }
         }
-        
+        //909
         return {minVal , maxVal};
     }
 };
