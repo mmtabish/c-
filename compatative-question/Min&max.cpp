@@ -30,7 +30,7 @@ class Solution {
             }
         }
         //909
-        // working on it 
+        // working on it lkn
         return {minVal , maxVal};
     }
 };
