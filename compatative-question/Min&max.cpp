@@ -29,9 +29,11 @@ class Solution {
                 maxVal = arr[i];
             }
         }
-        //909
+        //909nlkl
         // working on it lknnjnklihikj. dx k ubok kvknlkv
         //task working update vfddgxcdbflnkvdx
         return {minVal , maxVal};
     }
 };
+
+vsdvn
