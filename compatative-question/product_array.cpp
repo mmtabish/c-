@@ -37,7 +37,7 @@ public:
             prefix *= nums[i];
         }
 
-        // Step 2: Suffix products (combined in result array)
+        // Step 2: Suffix products (combined in result array)vxcvx
         int suffix = 1;
         for (int i = n - 1; i >= 0; i--) {
             result[i] *= suffix;
